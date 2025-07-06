@@ -7,6 +7,9 @@ COMMON_PATH := device/samsung/jdm-mt6768-cmn
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
 
+# Bypass elf checks
+BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
+
 # Architecture
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-a
