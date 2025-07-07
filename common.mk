@@ -9,3 +9,8 @@ $(call inherit-product, vendor/twrp/config/common.mk)
 $(call inherit-product, $(COMMON_PATH)/device.mk)
 
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,$(COMMON_PATH)/recovery/root,recovery/root)
+
+# Model/OEM
+PRODUCT_BRAND := samsung
+PRODUCT_MANUFACTURER := samsung
+PRODUCT_GMS_CLIENTID_BASE := android-samsung
