@@ -2,7 +2,7 @@
 # Copyright (C) 2025 The rsuntk Project 
 #
 
-COMMON_PATH := device/samsung/jdm-mt6768-cmn
+COMMON_PATH := device/samsung/mt6768-common
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true

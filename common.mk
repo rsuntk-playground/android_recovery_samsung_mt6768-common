@@ -5,9 +5,7 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, vendor/twrp/config/common.mk)
-$(call inherit-product, device/samsung/jdm-mt6768-cmn/device.mk)
-
-PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,device/samsung/jdm-mt6768-cmn/recovery/root,recovery/root)
+$(call inherit-product, device/samsung/mt6768-common/device.mk)
 
 # Model/OEM
 PRODUCT_BRAND := samsung
